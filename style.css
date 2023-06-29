@@ -1,11 +1,30 @@
 body{
- background-color: rgb(255, 136, 0);
+ background-color: white;
+ font-size: 40px;
  text-align: center;
 }
-table ,th,td {
-    border: 5px solid black; border-collapse: collapse
+
+table ,th,td {border: 10px solid black;
+    padding: 20px;
+    text-align: center;border-collapse: collapse;
+
 }
-table{align-self: center;}
- header {
-    text-align: center;
- }
+th {
+    background-color: gray; 
+}
+h2 {
+    background-color: cadetblue;
+}
+tr {
+    background-color: chartreuse;
+}
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+button {
+    font-size: 20px;
+}
+header {
+    font-size: 70pxs;
+}
+    
